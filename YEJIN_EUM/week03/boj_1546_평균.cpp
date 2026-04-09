@@ -5,15 +5,15 @@ int main() {
     int N;
     cin >> N;
 
-    int num[1000];
-    int max = 0;
-    int sum = 0;
+    double num[1000];
+    double max = 0;
+    double sum = 0;
 
     for (int i = 0; i < N; i++) {
         cin >> num[i];
 
         if (num[i] > max) {
-            max = num[i+1];
+            max = num[i];
         }
     }
 
